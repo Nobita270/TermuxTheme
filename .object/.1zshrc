@@ -6,7 +6,7 @@ source $HOME/.oh-my-zsh/oh-my-zsh.sh
 
 export ZSH=$HOME/.oh-my-zsh
 
-#figlet -f ASCII-Shadow "  h4ck3r" | lolcat -t
+#figlet -f ASCII-Shadow "  Tᴇʀᴍᴜx" | lolcat -t
 
 PUT(){ echo -en "\033[${1};${2}H";}
 DRAW(){ echo -en "\033%";echo -en "\033(0";}
@@ -27,7 +27,7 @@ echo -e "\033[33m │                                                          �
 echo -e "\033[33m │                                                          │"
 echo -e "\033[33m │                                                          │"
 echo -e "\033[33m │                                                          │"
-echo -e "\033[33m ╰─━━━━━━━━━━━━━━━━━━━━━━━━Termux-os━━━━━━━━━━━━━━━━━━━━━━━─╯"  | lolcat
+echo -e "\033[33m ╰─━━━━━━━━━━━━━━━━━━━━━━━Sʜᴀᴍsᴜʟ¹⁸¹━━━━━━━━━━━━━━━━━━━━━━━─╯"  | lolcat
 #DRAW
 PUT 4 0
 figlet -f ASCII-Shadow "\ \PROC" | lolcat -t
